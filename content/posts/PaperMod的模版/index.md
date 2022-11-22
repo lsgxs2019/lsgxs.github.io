@@ -1,6 +1,6 @@
 ---
 title: "设置post模版"
-date: 2020-09-15T11:30:03+00:00
+date: 2022-11-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
@@ -85,6 +85,17 @@ editPost:
 
 * hugo new --kind  post   posts/使用post模板新建文档.md
 
-* 可以先测试每个config.yml的参数，弄清楚参数的作用之后，可以根据自己的习惯自定义一个front matter参数模板，然后直接修改archetypes/下的default.md文档试试，要不然每次新建post都要使用`hugo new --kind post posts/xxxx.md`
+* You can use it by creating `archetypes/post.md`
+
+  在archetypes/post.md文件里，front matter区域的参数设置作为post类的模板，以后新建post时使用下面这个格式：
+
+  ```shell
+  hugo new --kind post <name>
+  ```
+
+  比如： `hugo  new  --kind  post  posts/my-first-post.md`
+
+  其实还有一个方法，就是把这个作为模板的post.md下的front-matter区域的参数，挑选自己常用的项目，复制在archetypes/default.md同样的位置，以后新建文档直接使用`hugo new  posts/dirname/index.md`,有空可以测试一下，可以先测试每个config.yml的参数，弄清楚参数的作用之后，可以根据自己的习惯自定义一个front matter参数模板，然后直接修改archetypes/下的default.md文档试试，要不然每次新建post都要使用`hugo new --kind post posts/xxxx.md`
+
 
 ![](云山雾绕.jpg)
