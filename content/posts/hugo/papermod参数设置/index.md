@@ -64,11 +64,11 @@ itle: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["first","删除github分支","github分支"]  
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false

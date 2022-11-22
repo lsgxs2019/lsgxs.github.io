@@ -2,7 +2,6 @@
 title: "测试hugo渲染"
 date: 2022-11-13T08:31:38+08:00
 draft: false
-featured_image: "image/山川-2.jpg"
 ---
 
 #### 测试hugo静态文档发布后无法渲染的原因

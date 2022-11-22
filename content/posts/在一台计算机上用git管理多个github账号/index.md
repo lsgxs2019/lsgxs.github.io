@@ -4,6 +4,7 @@ date: 2022-11-01T22:03:27+08:00
 draft: false
 cover: 
   image: "images/冰山.jpg"
+tags: ["git","github账号","github"]
 ---
 
 * 首先取消用户名和邮箱的全局设置

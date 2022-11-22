@@ -2,7 +2,7 @@
 title: "删除github分支"
 date: 2022-11-10T15:18:16+08:00
 draft: false
-featured_image: "image/冰山.jpg"
+tags: ["github分支","删除github分支"]
 ---
 
 #### 删除github仓库的分支

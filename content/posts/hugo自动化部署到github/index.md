@@ -2,10 +2,12 @@
 title: "Hugo自动化部署到github"
 date: 2022-11-13T21:53:09+08:00
 draft: false
-featured_image: "image/山川-2.jpg"
+cover:
+  image: "image/山川-2.jpg"
+tags: ["actions","部署","博客"]
 ---
 
-####  使用github的actions flow把hugo博客自动化部署到github
+####  使用github的actions workflow把hugo博客自动化部署到github
 
 部署静态博客站点到github一般有两种方法，第一种是手动建立项目，添加文档，最后使用git命令部署到github仓库。第二种方法是使用github提供的actions  flow实现自动化部署，一般可以通过两个分支来实现。
 
@@ -70,4 +72,4 @@ featured_image: "image/山川-2.jpg"
   * 进入到hugo 项目仓库，然后选择secrets，新建仓库的secrets，填写名称，secret的内容是上一步新建的personal access token的内容，粘贴在这里保存即可，在action脚本里引用时，用${{ secrets.HUGODEPLOYBTTWOBRANCHS }}的写法就可以获取token的值。
   
     ![](image/repository-secret-new.png)
-也就是说，仓库的secrets读取的是github账号级别的personal access token。
+   也就是说，仓库的secrets读取的是github账号级别的personal access token。

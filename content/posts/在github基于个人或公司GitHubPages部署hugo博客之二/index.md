@@ -2,6 +2,7 @@
 title: "在github基于个人或公司GitHub Pages部署hugo博客之二"
 date: 2022-11-15T20:02:48+08:00
 draft: false
+tags: ["github pages","actions","workflow"]
 ---
 
 #### 使用自定义的actons workflow,在仓库的两个分支之间实现hugo博客站点自动化部署

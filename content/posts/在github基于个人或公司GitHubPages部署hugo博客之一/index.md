@@ -2,7 +2,9 @@
 title: "在github基于个人或公司GitHub Pages部署hugo博客之一"
 date: 2022-11-14T22:47:45+08:00
 draft: false
-featured_image: "image/冰山.jpg"
+cover:
+  image: "image/冰山.jpg"
+tags: ["github pages","actions","workflow"]
 ---
 
 #### 使用github推荐的hugo actions workflow自动化部署hugo博客站点
