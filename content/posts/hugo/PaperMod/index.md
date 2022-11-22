@@ -1,6 +1,6 @@
 ---
 title: "PaperMod  QuickStart"
-date: 2022-11-22T13:09:03+00:00
+date: 2022-11-02T13:09:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
@@ -398,6 +398,71 @@ editPost:
 
 You can use it by creating `archetypes/post.md`
 
+在archetypes/post.md文件里，front matter区域的参数设置作为post类的模板，以后新建post时使用下面这个格式：
+
 ```shell
 hugo new --kind post <name>
 ```
+
+比如： `hugo  new  --kind  post  posts/my-first-post.md`
+
+实际上，这些front  matter定义的数据项和值，都是作为参数，输入给papermod主题的各类html模板文件，最后由hugo编译器将markdown文档中的元素加入到这些html模板文件中，最终生成静态的网页文件。可以打开主题自带的各类模板文件，会发现都是有自定义的语言组织逻辑融合了标准html元素。
+
+下面这段代码是themes/PaperMod/layouts/_default/archives.html的代码：
+
+~~~
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+
+{{- if site.Params.ShowAllPagesInArchive }}
+{{- $pages = site.RegularPages }}
+{{- end }}
+
+{{- range $pages.GroupByPublishDate "2006" }}
+{{- if ne .Key "0001" }}
+<div class="archive-year">
+  <h2 class="archive-year-header">
+    {{- replace .Key "0001" "" }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+  </h2>
+  {{- range .Pages.GroupByDate "January" }}
+  <div class="archive-month">
+    <h3 class="archive-month-header">{{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
+    <div class="archive-posts">
+      {{- range .Pages }}
+      {{- if eq .Kind "page" }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title">
+          {{- .Title | markdownify }}
+          {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        </h3>
+        <div class="archive-meta">
+          {{- partial "post_meta.html" . -}}
+        </div>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      </div>
+      {{- end }}
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}
+
+~~~
+
+![](images/themes-html-1.png)
+
+![](images/themes-html-2.png)
