@@ -9,8 +9,8 @@ disableShare: true # 底部不显示分享栏
 showbreadcrumbs: true #顶部显示路径
 cover:
     image:  "image/冰山.jpg"   #https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png 
-    caption: "" #图片底部描述
-    alt: ""
+    caption: "冰山一角" #图片底部描述
+    alt: "^-^"
     relative: false
 ---
 

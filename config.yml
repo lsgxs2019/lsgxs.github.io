@@ -4,7 +4,7 @@
 #theme: "PaperMod"
 
 baseURL: "https://examplesite.com/"
-title: ExampleSite
+title: Gxs's Blog
 paginate: 5
 theme: PaperMod
 
@@ -63,10 +63,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: I'm here
+    subtitle: "superman"
+    imageUrl: "/images/likesun.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -82,8 +82,8 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
+    - name: 必应
+      url: "https://cn.bing.com/?mkt=zh-CN"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
@@ -135,10 +135,10 @@ menu:
       name: search
       url: /search/
       weight: 10  
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
