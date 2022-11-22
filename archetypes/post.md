@@ -1,6 +1,6 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
@@ -18,12 +18,12 @@ disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+UseHugoToc: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
