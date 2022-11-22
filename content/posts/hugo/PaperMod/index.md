@@ -406,7 +406,9 @@ hugo new --kind post <name>
 
 比如： `hugo  new  --kind  post  posts/my-first-post.md`
 
-实际上，这些front  matter定义的数据项和值，都是作为参数，输入给papermod主题的各类html模板文件，最后由hugo编译器将markdown文档中的元素加入到这些html模板文件中，最终生成静态的网页文件。可以打开主题自带的各类模板文件，会发现都是有自定义的语言组织逻辑融合了标准html元素。
+其实还有一个方法，就是把这个作为模板的post.md下的front-matter区域的参数，挑选自己常用的项目，复制在archetypes/default.md同样的位置，以后新建文档直接使用`hugo new  posts/dirname/index.md`,有空可以测试一下。
+
+实际上，这些front  matter定义的数据项和值，都是作为参数，输入给papermod主题的各类html模板文件，最后由hugo编译器将markdown文档中的元素加入到这些html模板文件中，最终生成静态的网页文件。可以打开主题自带的各类模板文件，会发现都是有自定义的语言组织逻辑融合了标准html元素。当然，这是我自己初学这些主题目录下的html文件的猜想。
 
 下面这段代码是themes/PaperMod/layouts/_default/archives.html的代码：
 
