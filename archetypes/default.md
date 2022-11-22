@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: true
 tags: ["first"]
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 comments: false
 description: "Desc Text."
