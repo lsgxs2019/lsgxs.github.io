@@ -71,10 +71,12 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
+      - name: 📚Posts
         url: posts
-      - name: Tags
+      - name: 🏷Tags
         url: tags
+      - name: 📄archives
+        url: archives  
 
   # home-info mode
   homeInfoParams:
@@ -120,19 +122,19 @@ params:
 menu:
   main:
     - identifier: archives
-      name: archives
+      name: 📄archives
       url: /archives/
       weight: 10
     - identifier: posts
-      name: posts
+      name: 📚posts
       url: /posts/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 📑tags
       url: /tags/
       weight: 20
     - identifier: search
-      name: search
+      name: 🔍search
       url: /search/
       weight: 10  
     #- identifier: example
