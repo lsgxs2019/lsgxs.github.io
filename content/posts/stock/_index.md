@@ -1,0 +1,5 @@
+---
+title: "stock"
+hidemeta: true
+---
+

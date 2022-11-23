@@ -5,7 +5,7 @@
 
 baseURL: "https://examplesite.com/"
 title: Gxs's Blog
-paginate: 4
+paginate: 7
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -71,13 +71,17 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-      - name: archives
-        url: archives  
-
+      - name: 技术
+        url: posts/technology
+      - name: 财经
+        url: posts/stock
+      - name: 阅读
+        url: posts/read  
+      - name: 运动
+        url: posts/sport  
+      - name: 感悟
+        url: posts/think
+      
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
