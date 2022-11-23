@@ -11,7 +11,6 @@ tags:
 description: ""
 weight:
 slug: ""
-draft: false # 是否为草稿
 comments: true
 showToc: true # 显示目录
 TocOpen: true # 自动展开目录
@@ -21,5 +20,3 @@ showbreadcrumbs: true #顶部显示路径
 cover:
     image: "" #图片路径：posts/tech/123/123.png
     caption: "" #图片底部描述
-    alt: ""
-    relative: false
