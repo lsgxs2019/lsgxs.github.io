@@ -55,7 +55,7 @@ ShowCodeCopyButtons: true
 
 ​        这里对应的是模板文件：archives、posts、search
 
-下记录这些，基本可以让博客运行起来，其他的可以再测试。
+先记录这些，基本可以让博客运行起来，其他的可以再测试。
 
 #### Front Matter区域的参数设置
 
