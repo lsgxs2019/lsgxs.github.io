@@ -3,9 +3,9 @@
 #title: My New Hugo Site
 #theme: "PaperMod"
 
-baseURL: "https://examplesite.com/"
+baseURL: "https://lsgxs.github.io/"
 title: Gxs's Blog
-paginate: 7
+paginate: 3
 theme: PaperMod
 
 enableRobotsTXT: true
