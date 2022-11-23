@@ -20,7 +20,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 UseHugoToc: false
 cover:
-  image: "posts\technology\difference-between-git-clone-submoudule-downlaod/云山雾绕.jpg" 
+  image: "posts/technology/difference-between-git-clone-submoudule-downlaod/云山雾绕.jpg" 
   alt: "<alt text>" # alt text
   caption: "<text>" # display caption under cover
   relative: false # when using page bundles set this to true
