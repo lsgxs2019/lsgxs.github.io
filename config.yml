@@ -5,7 +5,7 @@
 
 baseURL: https://lsgxs.github.io/
 title: Gxs's Blog
-paginate: 7
+paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
