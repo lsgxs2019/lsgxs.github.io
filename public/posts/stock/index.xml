@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>stock on Gxs&#39;s Blog</title>
+    <link>https://lsgxs.github.io/posts/stock/</link>
+    <description>Recent content in stock on Gxs&#39;s Blog</description>
+    <image>
+      <url>https://lsgxs.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://lsgxs.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 24 Nov 2022 12:47:15 +0800</lastBuildDate><atom:link href="https://lsgxs.github.io/posts/stock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不要和任何人讨论股票</title>
+      <link>https://lsgxs.github.io/posts/stock/%E4%B8%8D%E8%A6%81%E5%92%8C%E4%BB%BB%E4%BD%95%E4%BA%BA%E8%AE%A8%E8%AE%BA%E8%82%A1%E7%A5%A8/</link>
+      <pubDate>Thu, 24 Nov 2022 12:47:15 +0800</pubDate>
+      
+      <guid>https://lsgxs.github.io/posts/stock/%E4%B8%8D%E8%A6%81%E5%92%8C%E4%BB%BB%E4%BD%95%E4%BA%BA%E8%AE%A8%E8%AE%BA%E8%82%A1%E7%A5%A8/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>
