@@ -1,14 +1,13 @@
 ---
-title: "不要和别人讨论股票"
-date: 2022-11-2401T08:07:29+08:00
-hidemeta: true
+title: "stock"
 draft: false
-tags: ["stock"]
+# weight:1
+tags: ["first"]
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
@@ -22,10 +21,10 @@ ShowPostNavLinks: true
 UseHugoToc: false
 cover:
     image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+
 ---
 
-#### 走自己的路，与外界无关
-
-#### 不要和别人讨论股票
-
-不要和任何人讨论股票，除非你确定他是股市上少数赚钱的10%。可是那些少数赚钱的人愿意和你交流吗？所以，一切都很明白。
