@@ -2,6 +2,7 @@
 title: "PaperMod的两种目录组织方式"
 date: 2022-11-23T16:46:21+08:00
 draft: false
+weight: 2
 cover: 
   image: "posts/technology/PaperMod的两种目录组织方式/冰山.jpg"
 ---
@@ -146,4 +147,12 @@ The hierarchy depth at which a branch bundle is created does not matter.
 ------
 
 1. The `.md` extension is just an example. The extension can be `.html`, `.json` or any valid MIME type
+
+我的这个博客项目目录结构同时使用了这两种方式：
+
+* 在主页使用的是branch bundle
+  * 在content/posts目录下使用的是branch bundle模式，posts目录和这五个入口文件件下都有一个_index.md文件。
+  * 在这个五个入口文件夹下面，可以根据自己的习惯使用这两种不同的方式
+    * branch bundle : 一个markdow-name.md文件，一个和该markdown文档同级新建一个同名称目录，在这个目录下可以保存page resource，也就是图片、音频、视频资源。在cover image里引用这些资源的格式为：posts/markdown-name/file-name.png
+    * leaf bundle: 以要建立的markdown文档名称作为目录名，在这个目录下新建index.md文件和images文件夹。index.md是你要编辑的文档。images目录用来保存图片资源，当然images文件夹名称是自定义的，也可是img，根据自己的习惯。在文档中引用资源的格式为：images/filename.png。
 

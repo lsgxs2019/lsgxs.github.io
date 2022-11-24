@@ -7,6 +7,8 @@ TocOpen: true
 UseHugoToc: false
 ShowCodeCopyButtons: true
 weight: 2
+cover:
+  image: "images/冰山.jpg"
 ---
 
 #### PaperMod主题config.yml文件的常用参数及设置
