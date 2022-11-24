@@ -6,6 +6,7 @@ showToc: true
 TocOpen: true
 UseHugoToc: false
 ShowCodeCopyButtons: true
+weight: 2
 ---
 
 #### PaperMod主题config.yml文件的常用参数及设置
@@ -16,6 +17,7 @@ ShowCodeCopyButtons: true
 * UseHogoToc: false      设置为false，可以使用下面两项使用PaperMod自带的toc设置
 * showtoc: true
 * tocopen: true 
+*  weight： 决定这篇文章的优先级，可以把经常需要看的置顶，设置为1、2、3等顺序。
 * ProfileMode:
   * enabled :  true  设置为true的话，主题显示为profile mode 风格，设置为false为regular常规模式
 

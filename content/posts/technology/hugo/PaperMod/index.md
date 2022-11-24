@@ -1,7 +1,7 @@
 ---
 title: "PaperMod  QuickStart"
 date: 2022-11-02T13:09:03+00:00
-# weight: 1
+weight: 1
 # aliases: ["/first"]
 tags: ["PaperMod"]
 author: "Me"
