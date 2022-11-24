@@ -6,7 +6,7 @@ showToc: true
 TocOpen: true
 UseHugoToc: false
 ShowCodeCopyButtons: true
-weight: 2
+weight: 3
 cover:
   image: "images/冰山.jpg"
 ---
