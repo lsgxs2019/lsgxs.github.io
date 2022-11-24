@@ -7,7 +7,7 @@ cover:
   image: "posts/technology/PaperMod的两种目录组织方式/冰山.jpg"
 ---
 
-#### PaperMod的目录结构的两种组织方式
+#### Hugo主题PaperMod目录结构的两种组织方式
 
 hugo 的官方文档里定义了页面资源的组织方式，叫做[Page Bundles](https://gohugo.io/content-management/page-bundles/)。有Leaf Bundle和Branch Bundle两种。下面的文字引用自hugo官方文档：
 
