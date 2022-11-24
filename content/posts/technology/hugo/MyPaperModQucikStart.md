@@ -35,14 +35,17 @@ cover:
 * 建站
 
   保持下图所示的目录结构：
-
-  ![](posts/technology/hugo/MyPaperModQucikStart/hugo-directory-structure.png)
-
+  
+  ![](posts/technology/hugo/MyPaperModQucikStart/hugo-directoy-structure.png)
+  
+  
   `cd  site`
+  
   `hugo  new site HuGoPaperMod -f yml `     (这里用-f yml指定建立yml格式的配置文件)
+  
   `cd HugoPaperMod `                        (此时新建的HugoPaperMod项目下有下图所示的目录）：
   
-    ![](posts/technology/hugo/MyPaperModQucikStart/hugo-directory-structure-2.png)
+  ![](posts/technology/hugo/MyPaperModQucikStart/hugo-directoy-structure-2.png)
   
   在这些目录下只有archetypes目录下有default.md一个文件，作为新建markdown文档的模板，内容如下：
   
