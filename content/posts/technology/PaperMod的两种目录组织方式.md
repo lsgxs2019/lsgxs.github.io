@@ -1,5 +1,5 @@
 ---
-title: "PaperMod的两种目录组织方式"
+title: "Hugo主题PaperMod目录结构的两种组织方式"
 date: 2022-11-23T16:46:21+08:00
 draft: false
 weight: 2
