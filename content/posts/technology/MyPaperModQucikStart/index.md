@@ -57,7 +57,7 @@ cover:
   git init    (先初始化当前的站点项目目录，否则下边的git submodule add 不能执行)
   git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod   （--depth=1指定只下载gitchub仓库最近的一次提交，不包括更多的历史提交记录）
   git submodule update --init --recursive   (needed when you reclone your repo,submodules may not get cloned automatically)
-  到这里已经把PaperMod主题下载到themes目录下，如果提示`unable to access...`类似的错误信息，就多试几次，可能是因为https协议没有git协议稳定。
+  到这里已经把PaperMod主题下载到themes目录下，如果提示`unable to access...`类似的错误信息，就多试几次，可能是因为https协议没有ssh协议稳定。
   ~~~
   
   在config.yml文件里添加`theme : "PaperMod"`。
