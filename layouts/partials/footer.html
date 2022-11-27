@@ -133,12 +133,14 @@
     });
 </script>
 {{- end }}
+
 <!--自动展开代码右侧宽度-->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
     $("code[class^=language] ").on("mouseover", function () {
         if (this.clientWidth < this.scrollWidth) {
             $(this).css("width", "135%")
+            $(this).css("background", "var(--hljs-bg)")
         }
     }).on("mouseout", function () {
         $(this).css("width", "100%")

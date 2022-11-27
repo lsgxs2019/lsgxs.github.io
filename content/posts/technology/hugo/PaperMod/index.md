@@ -49,45 +49,47 @@ January 20, 2021 · 3 min · Aditya Telange | [Suggest Changes](https://github.c
             <span class="details">Table of Contents</span>
         </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#intro" aria-label="Intro">Intro</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#guide" aria-label="Guide">Guide</a><ul>
-                        
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-1" aria-label="Method 1">Method 1</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-2" aria-label="Method 2">Method 2</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-3" aria-label="Method 3">Method 3</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#finally-" aria-label="Finally &amp;hellip;">Finally …</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-4" aria-label="Method 4">Method 4</a></li></ul>
-                </li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#quick-links" aria-label="Quick Links">Quick Links</a><ul>
-                        
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---featurespapermod-features" aria-label="Papermod - Features"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features">Papermod - Features</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---faqspapermod-how-to" aria-label="Papermod - FAQs"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-how-to">Papermod - FAQs</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---variablespapermod-variables" aria-label="Papermod - Variables"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables">Papermod - Variables</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---iconspapermod-icons" aria-label="Papermod - Icons"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons">Papermod - Icons</a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#changeloghttpsgithubcomadityatelangehugo-papermodreleases" aria-label="ChangeLog"></a><a href="https://github.com/adityatelange/hugo-PaperMod/releases">ChangeLog</a></li></ul>
-                </li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml" aria-label="Sample config.yml">Sample <code>config.yml</code></a></li>
-                <li>
-                    <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd" aria-label="Sample Page.md">Sample <code>Page.md</code></a>
-                </li>
-            </ul>
-        </div>
-    </details>
+```html
+    <div class="inner"><ul>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#intro" aria-label="Intro">Intro</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#guide" aria-label="Guide">Guide</a><ul>
+                    
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-1" aria-label="Method 1">Method 1</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-2" aria-label="Method 2">Method 2</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-3" aria-label="Method 3">Method 3</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#finally-" aria-label="Finally &amp;hellip;">Finally …</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#method-4" aria-label="Method 4">Method 4</a></li></ul>
+            </li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#quick-links" aria-label="Quick Links">Quick Links</a><ul>
+                    
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---featurespapermod-features" aria-label="Papermod - Features"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features">Papermod - Features</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---faqspapermod-how-to" aria-label="Papermod - FAQs"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-how-to">Papermod - FAQs</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---variablespapermod-variables" aria-label="Papermod - Variables"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables">Papermod - Variables</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#papermod---iconspapermod-icons" aria-label="Papermod - Icons"></a><a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-icons">Papermod - Icons</a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#changeloghttpsgithubcomadityatelangehugo-papermodreleases" aria-label="ChangeLog"></a><a href="https://github.com/adityatelange/hugo-PaperMod/releases">ChangeLog</a></li></ul>
+            </li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-configyml" aria-label="Sample config.yml">Sample <code>config.yml</code></a></li>
+            <li>
+                <a href="https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd" aria-label="Sample Page.md">Sample <code>Page.md</code></a>
+            </li>
+        </ul>
+    </div>
+</details>
+```
 
 ## Intro
 

@@ -20,17 +20,6 @@
     </item>
     
     <item>
-      <title>Hugo主题PaperMod目录结构的两种组织方式</title>
-      <link>https://lsgxs.github.io/posts/technology/papermod%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%9B%AE%E5%BD%95%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F/</link>
-      <pubDate>Wed, 23 Nov 2022 16:46:21 +0800</pubDate>
-      
-      <guid>https://lsgxs.github.io/posts/technology/papermod%E7%9A%84%E4%B8%A4%E7%A7%8D%E7%9B%AE%E5%BD%95%E7%BB%84%E7%BB%87%E6%96%B9%E5%BC%8F/</guid>
-      <description>Hugo主题PaperMod目录结构的两种组织方式 hugo 的官方文档里定义了页面资源的组织方式，叫做Page Bundles。有Leaf Bundle和Branch Bundle两种。下面的文字引用自hugo官方文档：
-Leaf Bundles A Leaf Bundle is a directory at any hierarchy within the content/ directory, that contains an index.md file.
-Examples of Leaf Bundle organization 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 content/ ├── about │ ├── index.md ├── posts │ ├── my-post │ │ ├── content1.md │ │ ├── content2.md │ │ ├── image1.</description>
-    </item>
-    
-    <item>
       <title>Papermod参数设置</title>
       <link>https://lsgxs.github.io/posts/technology/hugo/papermod%E5%8F%82%E6%95%B0%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Tue, 22 Nov 2022 17:20:56 +0800</pubDate>
